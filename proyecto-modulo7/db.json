@@ -1,0 +1,148 @@
+{
+  "productos": [
+    {
+      "id": "1",
+      "titulo": "Cien años de soledad",
+      "autor": "Gabriel García Márquez",
+      "categoria": "Novela",
+      "descripcion": "La saga de los Buendía en Macondo: una obra maestra del realismo mágico latinoamericano.",
+      "precio": 14990,
+      "stock": 12,
+      "rating": 4.8,
+      "imagen": "",
+      "destacado": true
+    },
+    {
+      "id": "2",
+      "titulo": "Sapiens",
+      "autor": "Yuval Noah Harari",
+      "categoria": "Ensayo",
+      "descripcion": "Una breve historia de la humanidad, desde la Edad de Piedra hasta hoy.",
+      "precio": 16990,
+      "stock": 8,
+      "rating": 4.6,
+      "imagen": "",
+      "destacado": true
+    },
+    {
+      "id": "3",
+      "titulo": "El nombre del viento",
+      "autor": "Patrick Rothfuss",
+      "categoria": "Fantasía",
+      "descripcion": "Primer libro de la saga Crónica del Asesino de Reyes.",
+      "precio": 18990,
+      "stock": 5,
+      "rating": 4.7,
+      "imagen": "",
+      "destacado": true
+    },
+    {
+      "id": "4",
+      "titulo": "Cosmos",
+      "autor": "Carl Sagan",
+      "categoria": "Ciencia",
+      "descripcion": "Un viaje por la evolución del universo y del pensamiento científico.",
+      "precio": 15490,
+      "stock": 10,
+      "rating": 4.7,
+      "imagen": "",
+      "destacado": false
+    },
+    {
+      "id": "5",
+      "titulo": "La casa de los espíritus",
+      "autor": "Isabel Allende",
+      "categoria": "Novela",
+      "descripcion": "Cuatro generaciones de una familia en un país latinoamericano convulso.",
+      "precio": 12990,
+      "stock": 3,
+      "rating": 4.5,
+      "imagen": "",
+      "destacado": false
+    },
+    {
+      "id": "6",
+      "titulo": "Breve historia del tiempo",
+      "autor": "Stephen Hawking",
+      "categoria": "Ciencia",
+      "descripcion": "Del Big Bang a los agujeros negros, explicado para todo público.",
+      "precio": 13990,
+      "stock": 0,
+      "rating": 4.4,
+      "imagen": "",
+      "destacado": false
+    },
+    {
+      "id": "7",
+      "titulo": "Confieso que he vivido",
+      "autor": "Pablo Neruda",
+      "categoria": "Biografía",
+      "descripcion": "Las memorias del poeta chileno, entre la política, el amor y los viajes.",
+      "precio": 14490,
+      "stock": 7,
+      "rating": 4.3,
+      "imagen": "",
+      "destacado": false
+    },
+    {
+      "id": "8",
+      "titulo": "Veinte poemas de amor y una canción desesperada",
+      "autor": "Pablo Neruda",
+      "categoria": "Poesía",
+      "descripcion": "El poemario que consagró a Neruda, con versos que siguen enamorando.",
+      "precio": 8990,
+      "stock": 20,
+      "rating": 4.9,
+      "imagen": "",
+      "destacado": true
+    },
+    {
+      "id": "9",
+      "titulo": "Ficciones",
+      "autor": "Jorge Luis Borges",
+      "categoria": "Fantasía",
+      "descripcion": "Cuentos de laberintos, bibliotecas infinitas y espejos.",
+      "precio": 11990,
+      "stock": 9,
+      "rating": 4.6,
+      "imagen": "",
+      "destacado": false
+    },
+    {
+      "id": "10",
+      "titulo": "Los detectives salvajes",
+      "autor": "Roberto Bolaño",
+      "categoria": "Novela",
+      "descripcion": "La búsqueda de una poeta desaparecida por el México y el mundo de los poetas.",
+      "precio": 19990,
+      "stock": 4,
+      "rating": 4.5,
+      "imagen": "",
+      "destacado": false
+    },
+    {
+      "id": "11",
+      "titulo": "Una breve historia de casi todo",
+      "autor": "Bill Bryson",
+      "categoria": "Ciencia",
+      "descripcion": "Un recorrido ameno y divertido por lo que sabemos del universo.",
+      "precio": 17490,
+      "stock": 6,
+      "rating": 4.4,
+      "imagen": "",
+      "destacado": false
+    },
+    {
+      "id": "12",
+      "titulo": "Diario de Ana Frank",
+      "autor": "Ana Frank",
+      "categoria": "Biografía",
+      "descripcion": "El testimonio de una adolescente escondida durante la ocupación nazi.",
+      "precio": 9990,
+      "stock": 15,
+      "rating": 4.8,
+      "imagen": "",
+      "destacado": false
+    }
+  ]
+}

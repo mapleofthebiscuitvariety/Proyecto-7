@@ -1,0 +1,85 @@
+/* Tipografía: títulos redondeados (Fredoka) + texto legible (Nunito) */
+.v-application {
+  font-family: 'Nunito', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif !important;
+}
+.titulo-xl,
+.titulo-lg,
+.titulo-md,
+.marca-texto {
+  font-family: 'Fredoka', 'Nunito', system-ui, sans-serif;
+  font-weight: 600;
+  line-height: 1.15;
+  margin: 0;
+}
+.titulo-xl { font-size: clamp(1.9rem, 4.5vw, 2.9rem); }
+.titulo-lg { font-size: clamp(1.5rem, 3.2vw, 2.1rem); }
+.titulo-md { font-size: 1.2rem; }
+
+/* Estilo "sticker" de las ilustraciones: contorno grueso y sombra desplazada */
+.sticker {
+  border: 2px solid rgb(var(--v-theme-borde)) !important;
+  border-radius: 14px !important;
+  box-shadow: 4px 4px 0 rgb(var(--v-theme-sombra)) !important;
+}
+.sticker--hover {
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+.sticker--hover:hover {
+  transform: translate(-2px, -2px);
+  box-shadow: 6px 6px 0 rgb(var(--v-theme-sombra)) !important;
+}
+
+/* Las ilustraciones tienen contorno azul marino: se apoyan siempre sobre un lienzo crema */
+.marco-img {
+  display: grid;
+  place-items: center;
+  padding: 0.75rem;
+  border: 2px solid rgb(var(--v-theme-borde));
+  border-radius: 20px;
+  background: rgb(var(--v-theme-lienzo));
+}
+.marco-img img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.pagina {
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: 2rem 1rem 3rem;
+}
+
+/* Rejilla responsive de productos */
+.rejilla {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+  gap: 1.25rem;
+}
+
+.enlace-limpio {
+  color: inherit;
+  text-decoration: none;
+}
+.enlace-limpio:hover {
+  color: rgb(var(--v-theme-primary));
+}
+
+/* Texto solo para lectores de pantalla */
+.solo-lectores {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    transition: none !important;
+    animation: none !important;
+  }
+}
